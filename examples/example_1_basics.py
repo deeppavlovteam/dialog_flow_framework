@@ -24,34 +24,56 @@ logger = logging.getLogger(__name__)
 # `TRANSITIONS` are described in pairs:
 #      - the node to which the agent will perform the transition
 #      - the condition under which to make the transition
+def preproc1():pass
+def preproc2():pass
+def preproc3():pass
+def preproc4():pass
+GLOBAL = 1
+LOCAL = 1
+PROCESSING = 1
+PRED_TRANSITIONS = 1
+POST_TRANSITIONS = 1
 flows = {
+    GLOBAL: {
+        TRANSITIONS: {},
+        PROCESSING: {
+            PRED_TRANSITIONS: {1: [preproc1], 2: [preproc2], 3: [preproc3]},
+        },
+        RESPONSE: {},
+    },
     "greeting_flow": {
-        GRAPH: {
-            "start_node": {  # This is an initial node, it doesn't need an `RESPONSE`
-                RESPONSE: "",
-                TRANSITIONS: {"node1": cnd.exact_match("Hi")},  # If "Hi" == request of user then we make the transition
+        LOCAL: {
+            TRANSITIONS: {},
+            PROCESSING: {
+                PRED_TRANSITIONS: {2: [preproc4]},
+                POST_TRANSITIONS: {},
             },
-            "node1": {
-                RESPONSE: "Hi, how are you?",  # When the agent goes to node1, we return "Hi, how are you?"
-                TRANSITIONS: {"node2": cnd.exact_match("i'm fine, how are you?")},
-            },
-            "node2": {
-                RESPONSE: "Good. What do you want to talk about?",
-                TRANSITIONS: {"node3": cnd.exact_match("Let's talk about music.")},
-            },
-            "node3": {
-                RESPONSE: "Sorry, I can not talk about music now.",
-                TRANSITIONS: {"node4": cnd.exact_match("Ok, goodbye.")},
-            },
-            "node4": {
-                RESPONSE: "bye",
-                TRANSITIONS: {"node1": cnd.exact_match("Hi")},
-            },
-            "fallback_node": {  # We get to this node if an error occurred while the agent was running
-                RESPONSE: "Ooops",
-                TRANSITIONS: {"node1": cnd.exact_match("Hi")},
-            },
-        }
+            RESPONSE: {},
+        },
+        "start_node": {  # This is an initial node, it doesn't need an `RESPONSE`
+            RESPONSE: "",
+            TRANSITIONS: {"node1": cnd.exact_match("Hi")},  # If "Hi" == request of user then we make the transition
+        },
+        "node1": {
+            RESPONSE: "Hi, how are you?",  # When the agent goes to node1, we return "Hi, how are you?"
+            TRANSITIONS: {"node2": cnd.exact_match("i'm fine, how are you?")},
+        },
+        "node2": {
+            RESPONSE: "Good. What do you want to talk about?",
+            TRANSITIONS: {"node3": cnd.exact_match("Let's talk about music.")},
+        },
+        "node3": {
+            RESPONSE: "Sorry, I can not talk about music now.",
+            TRANSITIONS: {"node4": cnd.exact_match("Ok, goodbye.")},
+        },
+        "node4": {
+            RESPONSE: "bye",
+            TRANSITIONS: {"node1": cnd.exact_match("Hi")},
+        },
+        "fallback_node": {  # We get to this node if an error occurred while the agent was running
+            RESPONSE: "Ooops",
+            TRANSITIONS: {"node1": cnd.exact_match("Hi")},
+        },
     },
 }
 
