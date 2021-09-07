@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 # In our example, there is one flow called greeting_flow.
 
 # Inside each flow, we can describe a sub-dialog using keyword `GRAPH` from dff.core.keywords module.
-# Here we can also use keyword `GLOBAL_TRANSITIONS`, which we have considered in other examples.
+# Here we can also use keyword `GLOBAL_RESPONSE`, which we have considered in other examples.
 
 # `GRAPH` describes a sub-dialog using linked nodes, each node has the keywords `RESPONSE` and `TRANSITIONS`.
 
@@ -28,16 +28,20 @@ def preproc1():pass
 def preproc2():pass
 def preproc3():pass
 def preproc4():pass
+def preproc5():pass
+
+
 GLOBAL = 1
 LOCAL = 1
 PROCESSING = 1
-PRED_TRANSITIONS = 1
-POST_TRANSITIONS = 1
+PRE_RESPONSE = 1
+POST_RESPONSE = 1
+
 flows = {
     GLOBAL: {
         TRANSITIONS: {},
         PROCESSING: {
-            PRED_TRANSITIONS: {1: [preproc1], 2: [preproc2], 3: [preproc3]},
+            PRE_RESPONSE: {1: [preproc1], 2: [preproc2], "tag": [preproc3]},
         },
         RESPONSE: {},
     },
@@ -45,14 +49,18 @@ flows = {
         LOCAL: {
             TRANSITIONS: {},
             PROCESSING: {
-                PRED_TRANSITIONS: {2: [preproc4]},
-                POST_TRANSITIONS: {},
+                PRE_RESPONSE: {2: [preproc4]},
+                POST_RESPONSE: {},
             },
             RESPONSE: {},
         },
         "start_node": {  # This is an initial node, it doesn't need an `RESPONSE`
             RESPONSE: "",
             TRANSITIONS: {"node1": cnd.exact_match("Hi")},  # If "Hi" == request of user then we make the transition
+            PROCESSING: {
+                PRE_RESPONSE: {"tag": [preproc5]},
+                POST_RESPONSE: {},
+            },
         },
         "node1": {
             RESPONSE: "Hi, how are you?",  # When the agent goes to node1, we return "Hi, how are you?"
