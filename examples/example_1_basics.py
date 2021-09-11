@@ -1,7 +1,7 @@
 import logging
 from typing import Optional, Union
 
-from dff.core.keywords import TRANSITIONS, GRAPH, RESPONSE
+from dff.core.keywords import TRANSITIONS, RESPONSE
 from dff.core import Context, Actor
 import dff.conditions as cnd
 
@@ -40,27 +40,19 @@ POST_RESPONSE = 1
 flows = {
     GLOBAL: {
         TRANSITIONS: {},
-        PROCESSING: {
-            PRE_RESPONSE: {1: [preproc1], 2: [preproc2], "tag": [preproc3]},
-        },
+        PROCESSING: {1: [preproc1], 2: [preproc2], 3: [preproc3]},
         RESPONSE: {},
     },
     "greeting_flow": {
         LOCAL: {
             TRANSITIONS: {},
-            PROCESSING: {
-                PRE_RESPONSE: {2: [preproc4]},
-                POST_RESPONSE: {},
-            },
+            PROCESSING: {2: [preproc4]},
             RESPONSE: {},
         },
         "start_node": {  # This is an initial node, it doesn't need an `RESPONSE`
             RESPONSE: "",
             TRANSITIONS: {"node1": cnd.exact_match("Hi")},  # If "Hi" == request of user then we make the transition
-            PROCESSING: {
-                PRE_RESPONSE: {"tag": [preproc5]},
-                POST_RESPONSE: {},
-            },
+            PROCESSING: {3: [preproc5]},
         },
         "node1": {
             RESPONSE: "Hi, how are you?",  # When the agent goes to node1, we return "Hi, how are you?"
