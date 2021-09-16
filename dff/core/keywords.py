@@ -1,6 +1,6 @@
-GLOBAL_TRANSITIONS = "global_transitions"
+GLOBAL = "global_transitions"
 TRANSITIONS = "transitions"
 RESPONSE = "response"
 PROCESSING = "processing"
-GRAPH = "graph"
 MISC = "misc"
+LOCAL = "local"
