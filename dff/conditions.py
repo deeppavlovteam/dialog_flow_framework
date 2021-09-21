@@ -1,4 +1,4 @@
-from typing import Callable, Pattern, Tuple, Union, Any
+from typing import Callable, Pattern, Tuple, Union, Any, Optional
 import logging
 import re
 
@@ -98,9 +98,29 @@ def isin_flow(flows: list[str] = [], nodes: list[Tuple[str, str]] = [], *args, *
 
     return isin_flow_condition_handler
 
+
+@validate_arguments
+def were_nodes_passed(
+    flows: list[str] = [],
+    nodes: list[Tuple[str, str]] = [],
+    last_n_turns: Optional[int] = None,
+    *args,
+    **kwargs,
+):
+    def were_nodes_passed_condition_handler(ctx: Context, actor: Actor, *args, **kwargs) -> bool:
+        node_labels = list(ctx.node_labels.values())
+        node_labels = node_labels if last_n_turns is None else node_labels[-last_n_turns:]
+
+        node_labels = [node_label[-1][:2] if node_label else (None, None) for node_label in node_labels]
+        return any([node_label[0] in flows or node_label in nodes for node_label in node_labels])
+
+    return were_nodes_passed_condition_handler
+
+
 @validate_arguments
 def true(ctx: Context, actor: Actor, *args, **kwargs) -> bool:
     return True
+
 
 @validate_arguments
 def false(ctx: Context, actor: Actor, *args, **kwargs) -> bool:
