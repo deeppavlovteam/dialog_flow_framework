@@ -36,7 +36,7 @@
                 <mxCell id="21" value="Dialog Flow SDK" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="250" y="418" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="&lt;span class=&quot;text&quot; lang=&quot;en&quot;&gt;&lt;span class=&quot;VIiyi&quot; lang=&quot;en&quot;&gt;&lt;span class=&quot;JLqJ4b ChMk0b&quot;&gt;&lt;span&gt;Finite State machine-based engine with built-in&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;Domain Specific Language (&lt;em&gt;DSL&lt;/em&gt;) support&lt;br&gt;&amp;nbsp;for building flexible scenarios&lt;br&gt;&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=50;" parent="1" vertex="1">
+                <mxCell id="26" value="&lt;span class=&quot;text&quot; lang=&quot;en&quot;&gt;&lt;br&gt;Domain Specific Language (&lt;em&gt;DSL&lt;/em&gt;) support&lt;br&gt;&amp;nbsp;for building flexible scenarios&lt;br&gt;&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=50;" parent="1" vertex="1">
                     <mxGeometry x="430" y="655" width="170" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="Extends Dialog Flow Engine with&amp;nbsp;&lt;span class=&quot;VIiyi&quot; lang=&quot;en&quot;&gt;1st and 3rd party python packages&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=50;" parent="1" vertex="1">
