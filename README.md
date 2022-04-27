@@ -45,14 +45,16 @@ Dialog Flow Engine (DFE) allows you to write conversational services. The servic
 
 
 ## Dialog Flow Addon System
+![Dialog Flow Addon System](images/dff_overview.png)
 ---
 Python packages for Dialog Flow Engine Extending:
-- [df-addon-turn-caching](https://github.com/kudep/df_addon_turn_caching) (unstable) - Turn Caching
+- [dialog_flow_db_connector](https://github.com/deepmipt/dialog_flow_db_connector) (stable) - Contexts saver into json/pickle/postgres/mysql
+- [dialog_flow_generics](https://github.com/deepmipt/dialog_flow_generics) (stable) - Dialog Flow Generics introduces a GenericResponse class as well as generic classes for various media types. 
+- [dialog_flow_examples](https://github.com/kudep/dialog_flow_examples) (stable) - Data collection & Data analysis of user behaviors
 - [dff-node-stats](https://github.com/kudep/dff-node-stats) (unstable) - Data collection & Data analysis of user behaviors
-- df-addon-ctx-json-saver (planned) - Contexts saver into json
-- df-addon-ctx-postgres-saver (planned) - Contexts saver into postgresql
+- [df-addon-turn-caching](https://github.com/kudep/df_addon_turn_caching) (unstable) - Turn Caching
 - df-addon-tg-connector (planned) - Telegram connector for connecting to Telegram Messenger 
-
+https://github.com/deepmipt/dialog_flow_db_connector
 
 ## Dialog Flow SDK
 ---
@@ -67,3 +69,8 @@ Tool set for Dialogflow Framework, link to the repository is available [here](ht
 Dialog Flow Framework or in other words DeepPavlov Dialog Flow Framework is an open source framework for quickly writing dialog services. Google Dialogflow  is a closed proprietary product of Google. These products are not related in any way, except for a similar name.
 ```
 
+
+asynchronous
+error tolerant
+flexible
+load monitoring
