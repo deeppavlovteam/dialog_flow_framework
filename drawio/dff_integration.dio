@@ -1,1 +1,70 @@
-<mxfile host="Electron" modified="2021-12-28T08:54:07.583Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/15.8.7 Chrome/91.0.4472.164 Electron/13.6.2 Safari/537.36" version="15.8.7" etag="l1x-53pQRfD9ejOi66Oh" type="device"><diagram id="G1IOVDpFXPWN2gBBukcB" name="Page-1">7Vptc+I2EP41zKRfbvyCDXzkJVw700wz5Xq5fFRsYTSxJVcSYO7Xd2XL+D3QYshNc/lArJW00j777HolGNjzKPnMUbx5YD4OB5bhJwN7MbAs0zQs+KckBy0xLCeTBJz4WlYIVuQ7zgdq6Zb4WFQGSsZCSeKq0GOUYk9WZIhztq8OW7OwumqMAtwQrDwUNqVPxJebTDp2jEL+KybBRh4t1j0Rygdrgdggn+1LIvt+YM85YzJ7ipI5DhV6OS7ZvGVH73FjHFN5zoThOJuxQ+FWG6c3Jg+5tZxtqY/VBGNgz/YbIvEqRp7q3YODQbaRUQgtEx7XJAznLGQ8nWubL8jEYNVMSM5ecanHMNz76VLNYFSW5Ov0D+QM1iBSUcRR6zYt08buMJc4KYm0pZ8xi7DkBxiie62hRl3zzsm9sC+c6Oau2pQcONYypHkTHFUX0MKDRrcDaee6SLsGmpijNqStxUhZ9Z5Iw+5uh7RjN4DFPsSvblJGcRVJnBD5TYH+aeTo5nOpa5Foh6SNg24IibicqmRS6ExlS6J2lk2gfj7CC5EQxMuEeki6AAXryour9vNxPjSK5dNWvn6nlwTbck/bbevwhn0FWA/LXaMwedOXHIdIkl01513iGLuZbBYEhSwA2TIEmCxjhfmOwO67I8M8HRk9ENg2zSqBR00Cm1YLgd0+UoXRwOk+kZhTpEatDkLi6IdDyLFviZDdkkzdEFaYvcBDoB5ijmPOBBYCULGMrcA8JfXfWyxkPhoWOk5oQApIyCpu1dyqo76ciLUIhSSgKuoBX1jWnilcCRQQU90REd9Xy7Q6qvoa6CMdO1VfDVvYPG5xldWHq4anXSXyqAf3iJhRgT+Wf4bmaf+Yba/LXhw0uW5hgixD1fcthYm7NIybFyZVpN1xE2lnMrlSYdLM638B9cUPkMutKiqTG+ZyZ9iw/+1y7b0rr/9ULnZ6qVyu5S/+crnm9F6u6amPjMBWihxUj4x6bsk2qmeVj5Q1RfakpsipKcqsayhKeXK05zzquO9OHatCHfNs6lhl6hiXU8dpoU7/lX4HdWqvr+PJ7t9Sp6Gonl96pM7oJ3XeyDr5Ue3a1LGdEx4/O+vUFdU52CN12u7MahXthz5t1N8kLSfDa502nLZituYbXJylhT5L/zx3dHrqaucOt+1CNENfxIjm6N/THeGgnUqok401U2EVH+SGUbV+DLhMjx7m+STzE3T+sYKPu98J3SawlycCE5YPyPul5OPyQk0tbduxQLOLIuUO+iLi0qgOdWXZ14eL1rYvWXvBvNc0J3lw2EKEquczlfVO/xCv5WXk7/9kOKxfWeeppBQLw2tdWbuj82IhAYeFWAUCW6u3cz2Tie5oeFAXYTRIKXC3BGhfGHsdWLA142mDpJhCKKWtLzjEAUdR1sLyVgED70xgpVDG3ZU3m4X8Hr8IIIXIdnW8Ns4vQ/WoOUphnavSKR9btqDYqoolY8U8UDRjqo64m0boe5pUpiFOUDb3GQHnklSW3k+d0DdnFAgnoCBimVemv8HHI1RIsL0otWyBcfyIdiHbKTM4znH+EwlU1v8hY67tC7nrxVx3GVempb6hMTwlguQZRVsKAEp1W7kjqDvgviiXZXGHAkXGWwTRV9b27cn/lT2n7/Lsnu7yoFl8KZ+dGYrfNtj3/wA=</diagram></mxfile>
+<mxfile host="65bd71144e">
+    <diagram id="G1IOVDpFXPWN2gBBukcB" name="Page-1">
+        <mxGraphModel dx="846" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;opacity=50;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="520" width="600" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;opacity=50;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="360" width="600" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="38" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Dialog Flow Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="311" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="External System" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="311" y="530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;b&gt;preprosessed user request&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="251" y="470" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;b&gt;service response&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="411" y="470" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;opacity=50;" parent="1" vertex="1">
+                    <mxGeometry x="241" y="680" width="599" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Users" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="312" y="690" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="40" target="50" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="441" y="620" as="sourcePoint"/>
+                        <mxPoint x="391" y="650" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="50" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="411" y="600" as="sourcePoint"/>
+                        <mxPoint x="411" y="660" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=none;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="40" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="351" y="660" as="sourcePoint"/>
+                        <mxPoint x="351" y="600" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="&lt;b&gt;user request&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="241" y="630" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="&lt;b&gt;external system response&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="411" y="630" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="&lt;span&gt;Enviroments for python app:&lt;br&gt;1. OS (Linux/Win/Mac)&lt;/span&gt;&lt;br&gt;&lt;span&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span&gt;VM&lt;/span&gt;&lt;br&gt;&lt;span&gt;3.&amp;nbsp;&lt;/span&gt;&lt;span&gt;Docker container&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=50;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="359" width="400" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;span&gt;Examples of external systems:&lt;br&gt;1. Messenger (WhatsApp, Telegram, etc)&lt;/span&gt;&lt;br&gt;&lt;span&gt;2.&amp;nbsp;&lt;/span&gt;Business (Messenger for websites, Dialog System for Call Centres, etc)&lt;br&gt;3. SocialBot (Amazon Alexa, Yandex Alice, etc)&lt;br&gt;3. Conversational AI Platforms (DeepPavlov Dream, Rasa, etc)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=50;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="520" width="400" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="&lt;span&gt;Users can communicate via:&lt;br&gt;1. Text Messages&lt;/span&gt;&lt;br&gt;&lt;span&gt;2.&amp;nbsp;&lt;/span&gt;Voice" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=50;" parent="1" vertex="1">
+                    <mxGeometry x="441" y="680" width="399" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
